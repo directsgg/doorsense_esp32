@@ -16,8 +16,8 @@ static const char *_STREAM_CONTENT_TYPE = "multipart/x-mixed-replace;boundary=" 
 static const char *_STREAM_BOUNDARY = "\r\n--" PART_BOUNDARY "\r\n";
 static const char *_STREAM_PART = "Content-Type: image/jpeg\r\nContent-Length: %u\r\nX-Timestamp: %d.%06d\r\n\r\n";
 
-const char *ssid = "Nexxt_50E438";
-const char *password = "otrointernet";
+const char *ssid = "SSID";
+const char *password = "PASS";
 // udp
 UDPStream udpStream(ssid, password);
 IPAddress udpAddress(255, 255, 255, 255);
